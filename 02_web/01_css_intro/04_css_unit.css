@@ -1,0 +1,17 @@
+h1{
+    color: blue;
+    font-size: 50%;
+}
+div{
+    color: red;
+    font-size: 50%;
+}
+ul{
+    color: rgb(87, 8, 8);
+    font-size: 2rem
+}
+
+div > h2{
+    color: aqua;
+    font-size: 5em;
+}

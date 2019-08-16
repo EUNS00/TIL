@@ -1,0 +1,15 @@
+#font1{
+    font-size: 30px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+#font2{
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 500; /*글자굵기 */
+    letter-spacing: 5px; /*자간*/
+    text-align: center;
+}
