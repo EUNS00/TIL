@@ -9,8 +9,7 @@ for test_case in range(1, T+1):
     count = 0
     Fv = 0
     Screw = list(map(int, input().split()))
-    print('#', end="")
-    print(test_case, end=" ")
+    print('#{}'.format(test_case), end=" ")
     for num, s in enumerate(Screw):
         if num%2==0:
             result[s] = Screw[num+1]

@@ -29,6 +29,6 @@ for tc in range(1, TC + 1):
     if result[0] < result[1]:
         print('#%s'%tc,'A')
     elif result[0] == result[1]:
-        print('#%s'%tc,0)
+        print('#%s'%tc, 0)
     else:
         print('#%s'%tc,'B')
