@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  img{
+    width: 300px;
+    height: 300px;
+  }
+  </style>
+</head>
+<body>
+    <div id="app">
+      <div>
+        <select v-model="count">
+          <option v-for="number in numbers" :value="number">{{ number }}</option>
+        </select>
+        <button @click="getDogs">Get {{ count }} Dogs!</button>
+      </div>
+      <div v-for="dog in dogs">
+        <img src="dog" alt="dog-image">
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        const: 1
+
+      }
+    })
+  </script>
+</body>
+</html>
